@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soy Adonys, Agrega-Me.">.
+    <title>AggMe.Bio - Perfil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .profile-card {
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .social-buttons .btn {
+            margin: 5px;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">AggMe</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfiles Públicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ranking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acceder</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-image">
+
+                <!--<img src="https://avatars.dicebear.com/api/adventurer-neutral/mail%40ashallendesign.co.uk.svg"
+                    alt="Profile Image">-->
+                <img src="./AVATAR.webp" alt="Profile Image" style="max-width: 150px; max-height: 150px;">
+            </div>
+            <h2 class="profile-name">@avaldesa007</h2>
+            <p class="profile-description">Descripción del perfil</p>
+            <div class="social-buttons">
+                <a class="btn btn-success" href="https://wa.me/123456789" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a class="btn btn-primary" href="https://www.facebook.com/example" target="_blank">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a class="btn btn-danger" href="https://www.instagram.com/example" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a class="btn btn-info" href="https://t.me/example" target="_blank">
+                    <i class="fab fa-telegram"></i> Telegram
+                </a>
+                <a class="btn btn-secondary" href="https://www.linkedin.com/in/example" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a class="btn btn-dark" href="mailto:mail@example.com" target="_blank">
+                    <i class="far fa-envelope"></i> Email
+                </a>
+                <a class="btn btn-warning" href="https://example.com/blog" target="_blank">
+                    <i class="fas fa-blog"></i> Blog
+                </a>
+            </div>
+            <div class="visitor-counter">
+                <span id="visit-count">0</span> visitas
+            </div>
+            <button class="btn btn-secondary" onclick="shareProfile()">
+                <i class="fas fa-share-alt"></i> Compartir
+            </button>
+        </div>
+    </div>
+
+
+</body>
+<footer class="footer mt-auto">
+    <p>AggMe.Bio &copy; 2023</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

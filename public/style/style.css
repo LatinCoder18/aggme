@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f9f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #c0dedb;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.user-card {
+    margin-bottom: 20px;
+}
+
+.user-card .card-body {
+    display: flex;
+    align-items: center;
+}
+
+.user-card .card-body img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.user-card .card-body .verified-icon {
+    color: #28a745;
+    margin-left: auto;
+}

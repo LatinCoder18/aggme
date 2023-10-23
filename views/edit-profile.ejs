@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Enlaces de Redes Sociales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">AggMe</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="text-center">Modificar Enlaces de Redes Sociales</h1>
+        <form>
+            <div class="form-group">
+                <label for="whatsapp">WhatsApp:</label>
+                <input type="text" class="form-control" id="whatsapp" name="whatsapp" placeholder="Enlace de WhatsApp">
+            </div>
+            <div class="form-group">
+                <label for="facebook">Facebook:</label>
+                <input type="text" class="form-control" id="facebook" name="facebook" placeholder="Enlace de Facebook">
+            </div>
+            <div class="form-group">
+                <label for="instagram">Instagram:</label>
+                <input type="text" class="form-control" id="instagram" name="instagram"
+                    placeholder="Enlace de Instagram">
+            </div>
+            <div class="form-group">
+                <label for="telegram">Telegram:</label>
+                <input type="text" class="form-control" id="telegram" name="telegram" placeholder="Enlace de Telegram">
+            </div>
+            <div class="form-group">
+                <label for="linkedin">LinkedIn:</label>
+                <input type="text" class="form-control" id="linkedin" name="linkedin" placeholder="Enlace de LinkedIn">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Dirección de Email">
+            </div>
+            <div class="form-group">
+                <label for="blog">Blog:</label>
+                <input type="text" class="form-control" id="blog" name="blog" placeholder="Enlace del Blog">
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+
+    <footer class="footer mt-auto">
+        <div class="container">
+            <p>AggMe.Bio &copy; 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
