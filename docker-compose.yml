@@ -5,7 +5,7 @@ services:
     restart: always
     build: .
     ports:
-      - "4000:80"  # Redirige el tráfico del puerto 4000 al puerto 80
+      - "4000:3000"  # Redirige el tráfico del puerto 4000 al puerto 80
   nginx:
     container_name: aggme-nginx
     restart: always
