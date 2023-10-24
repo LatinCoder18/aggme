@@ -6,14 +6,3 @@ services:
     build: .
     ports:
       - "3000:3000" # Redirige el tráfico del puerto 4000 al puerto 80
-    depends_on:
-      - "nginx"
-  nginx:
-    container_name: nginx
-    image: nginx:latest
-    restart: always
-    ports:
-      - 80:80
-      - 443:443
-    volumes:
-      - ./config/nginx/conf:/etc/nginx/conf.d
